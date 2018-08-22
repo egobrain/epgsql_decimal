@@ -1,0 +1,16 @@
+{application, epgsql_decimal, [
+    {description, "Erlang epgsql decimal codec"},
+    {vsn, git},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib,
+        decimal
+    ]},
+    {env,[]},
+    {modules, []},
+
+    {maintainers, ["Yakov Kozlov"]},
+    {licenses, ["MIT"]},
+    {links, [{"Github", "https://github.com/egobrain/epgsql_decimal"}]}
+]}.
