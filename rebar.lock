@@ -1,6 +1,4 @@
-{"1.1.0",
-[{<<"decimal">>,{pkg,<<"erlang_decimal">>,<<"0.4.3">>},0}]}.
-[
-{pkg_hash,[
- {<<"decimal">>, <<"1EF14B2E7B96756042CD75565A9910B10A2245A8822D46F9A5A551D17C34A6D7">>}]}
-].
+[{<<"decimal">>,
+  {git,"git@github.com:egobrain/decimal.git",
+       {ref,"25c0472ab957a39fd2a0b7888c3dfe36f2ecb059"}},
+  0}].
